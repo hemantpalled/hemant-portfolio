@@ -43,8 +43,11 @@ export function Navigation() {
   }, []);
 
   const handleLink = (id: string) => {
-    scrollTo(id);
+    // Close the mobile menu first so the closing animation doesn't
+    // interfere with scrollIntoView on mobile. Then scroll after
+    // a short delay to ensure the menu has collapsed.
     setIsOpen(false);
+    setTimeout(() => scrollTo(id), 80);
   };
 
   return (
