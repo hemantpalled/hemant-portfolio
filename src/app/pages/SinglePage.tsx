@@ -686,7 +686,7 @@ export function SinglePage() {
                   </p>
                   <h4 className="font-bold text-gray-900 mb-3">Working Hours</h4>
                   <p className="text-gray-500 text-sm leading-relaxed">
-                    Mon – Fri: 9:00 AM – 6:00 PM (PST)<br />
+                    Mon – Fri: 9:00 AM – 6:00 PM (IST)<br />
                     Weekends: Limited availability
                   </p>
                 </div>
