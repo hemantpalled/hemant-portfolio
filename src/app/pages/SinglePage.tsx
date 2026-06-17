@@ -32,7 +32,7 @@ import { Textarea } from "../components/ui/textarea";
 import { Label } from "../components/ui/label";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import { toast } from "sonner";
-import portfolioImage from "../../static/images/portfolio_black_and_white.png"
+import portfolioImage from "../../static/images/portfolio_black_and_white.webp"
 
 // ─── Lazy-reveal hook ──────────────────────────────────────────────────────
 function useLazyReveal(threshold = 0.15) {
