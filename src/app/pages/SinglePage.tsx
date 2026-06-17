@@ -126,7 +126,7 @@ const stats = [
 
 const skills = [
   "JavaScript / TypeScript", "React / Next.js", "Python", "HTML & CSS",
-  "Tailwind CSS", "UI/UX Design", "Figma", "Git / GitHub",
+  "UI/UX Design", "Figma", "Git / GitHub",
   "PostgreSQL", "Docker", "AWS", "PostgreSQL", "FastAPI", "Laravel", "Linux", "Postman",
 ];
 
@@ -152,7 +152,7 @@ const contactInfo = [
   { icon: MapPin,  label: "Location", value: "Banglore, Karnataka",  href: "#" },
 ];
 
-const TECHS = ["React", "TypeScript", "Node.js", "Tailwind CSS", "Next.js", "GraphQL", "Figma", "AWS", "PostgreSQL", "Docker"];
+const TECHS = ["React", "TypeScript", "Next.js", "Figma", "AWS", "PostgreSQL", "Docker"];
 
 // ─── Particle field ────────────────────────────────────────────────────────
 const PARTICLES = Array.from({ length: 60 }, (_, i) => ({
