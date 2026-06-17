@@ -143,7 +143,7 @@ const projects = [
   // { id: 3, title: "Real Estate Platform",  desc: "Property listings with advanced search, virtual tours, and agent tools.",      image: "https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?w=800&q=80", tags: ["Next.js", "Tailwind", "Prisma", "PostgreSQL"],    live: "#", code: "#" },
   // { id: 4, title: "Brand Identity System", desc: "Full identity: logo, palette, typography, and design-system guidelines.",      image: "https://images.unsplash.com/photo-1590102426275-8d1c367070d3?w=800&q=80", tags: ["Figma", "Illustrator", "Branding"],               live: "#", code: "#" },
   // { id: 5, title: "Task Management Tool",  desc: "Kanban boards, time tracking, and real-time team collaboration.",              image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80", tags: ["Vue.js", "Express", "Socket.io"],                 live: "#", code: "#" },
-  { id: 6, title: "Portfolio Website",     desc: "Custom animated portfolio for a creative agency showcasing their best work.",   image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&q=80", tags: ["React", "Motion", "Tailwind", "Vite"],                   live: "#", code: "#" },
+  { id: 6, title: "Portfolio Website",     desc: "Designed and developed a modern, responsive portfolio website showcasing projects, skills, and professional experience. Focused on clean UI/UX, performance optimization, and accessibility best practices.",   image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&q=80", tags: ["React", "Motion", "Tailwind", "Vite"],                   live: "https://hemantpalled.github.io/hemant-portfolio/", code: "#" },
 ];
 
 const contactInfo = [
@@ -330,7 +330,7 @@ export function SinglePage() {
             transition={{ delay: 0.9, duration: 0.8 }}
             className="mt-16 flex flex-wrap justify-center gap-2"
           >
-            {["React", "TypeScript", "Next.js", "Laravel", "Python", "Docker", "FastAPI", "PostgreSQL", "Linux", "AWS", "Tailwind"].map((t, i) => (
+            {["React", "TypeScript", "Next.js", "Laravel", "Python", "Docker", "FastAPI", "PostgreSQL", "Linux", "AWS"].map((t, i) => (
               <motion.span
                 key={t}
                 initial={{ opacity: 0, scale: 0.7 }}
